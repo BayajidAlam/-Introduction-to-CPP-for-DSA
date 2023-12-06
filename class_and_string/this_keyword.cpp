@@ -13,13 +13,13 @@ public:
   }
   void hello()
   {
-    cout << "Hello" << endl;
+    cout << "Hello " << endl;
   }
 };
 
 int main()
 {
-  Person rakib("Rakib Ahsan", 4);
+  Person rakib("Rakib Hossen", 23);
   cout << rakib.name << " " << rakib.age << endl;
   rakib.hello();
   return 0;

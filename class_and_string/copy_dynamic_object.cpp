@@ -6,7 +6,6 @@ class Person
 public:
   string name;
   int age;
-
   Person(string name, int age)
   {
     this->name = name;
@@ -16,13 +15,12 @@ public:
 
 int main()
 {
-  Person *rakib = new Person("Rakib Ahmed", 23);
-  Person *sakib = new Person("Sakib Ahmed", 25);
+  Person *rakib = new Person("Rakib Mia", 34);
+  Person *sakib = new Person("Sakib", 34);
 
   // rakib->name = sakib->name;
   // rakib->age = sakib->age;
 
-  // alternative
   *rakib = *sakib;
 
   cout << rakib->name << " " << rakib->age << endl;
