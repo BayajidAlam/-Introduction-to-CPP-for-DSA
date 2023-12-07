@@ -14,7 +14,7 @@ int main()
   for (char i = 'a'; i < 'z'; i++)
   {
     for(int j = 0;  j < frq[i - 'a']; j++){
-      cout << i << endl;
+      cout << i;
     }
   }
   return 0;
